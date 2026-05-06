@@ -1,4 +1,4 @@
-/* Configurações Gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #121212; /* Fundo escuro estilo motorista */
+    background-color: #121212; 
     color: white;
 }
 
@@ -18,10 +18,10 @@ header {
 }
 
 header h1 span {
-    color: #ff3131; /* Vermelho destaque */
+    color: #ff3131; 
 }
 
-/* Alinhamento em Linhas (Grid) */
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -31,7 +31,7 @@ header h1 span {
     margin: 0 auto;
 }
 
-/* Estilo dos Cards de Peças */
+
 .card {
     background-color: #1e1e1e;
     border-radius: 10px;
@@ -40,10 +40,10 @@ header h1 span {
     border: 1px solid #333;
 }
 
-.card:hover {
+/*.card:hover {
     transform: translateY(-10px);
     border-color: #ff3131;
-}
+} */
 
 .card img {
     width: 100%;
@@ -63,7 +63,7 @@ header h1 span {
 .preco {
     display: block;
     font-size: 1.5rem;
-    color: #00ff41; /* Verde para preço */
+    color: #00ff41; 
     margin: 15px 0;
     font-weight: bold;
 }
